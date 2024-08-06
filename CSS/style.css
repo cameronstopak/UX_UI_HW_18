@@ -33,3 +33,8 @@ width: 200px;
 height: 50px;
 background-color: yellow;
 }
+
+.flexcontainer{
+display: flex;
+width: 33%;
+}
