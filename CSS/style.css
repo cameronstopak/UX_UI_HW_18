@@ -1,4 +1,15 @@
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
 
+.oswald-<uniquifier> {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
 
 *{
 margin: 0;
@@ -12,6 +23,7 @@ width: 100%;
     vertical-align: top;
     text-align: center;
   }
+  
 
   .Logo{
     width: 139px;
@@ -38,6 +50,7 @@ width: 100%;
 color: black;
 align-items: center;
 font-size: 24px;
+font-family:Oswald;
 }
 
 
@@ -56,6 +69,7 @@ height: 180px;
 color: white;
 display:flex;
 align-items: center;
+font-family: Pacifico;
 }
 
 nav{
@@ -69,7 +83,7 @@ height: 63px;
 color: #fff;
 }
 
-.HeroBanner {
+.HeroContainer {
   display:flex;
   align-items: center;
   width: 1208px;
@@ -77,9 +91,11 @@ color: #fff;
   padding-bottom: 50px;
 }
 
+
 .HeroPar{
   font-size: 36px;
   padding:100px;
+  font-family:Oswald ;
 }
 
 .downloadResume{
@@ -90,6 +106,7 @@ color: #fff;
       background-color: #ff0;
     color: #000;
     font-size: 24px;
+    font-family:Oswald ;
   }
 
 .HeroImg{
@@ -109,6 +126,12 @@ color: #fff;
   background-color: #ff0;
   width: 100%;
   padding: 24px 120px 17px 108px;
+  font-family:Oswald;
+}
+@media screen and (max-width: 800px) {
+  .skillsContainer {
+    width: 100%;
+  }
 }
 
 
@@ -119,6 +142,7 @@ color: #fff;
       border-radius: 10px;
       background-color: #ff0;
       font-size: 24px;
+      font-family: Oswald;
     color: #000;
 }
 
@@ -130,17 +154,39 @@ color: #fff;
   padding: 24px 120px 17px 108px;
   color: white;
   font-size:24px;
+  font-family:Oswald;
 }
-
+@media screen and (max-width: 800px) {
+  .workContainer {
+    width: 100%;
+  }
+}
+h1{
+font-size: 64px;
+text-decoration: underline;
+font-family:Pacifico;
+color: #ff0;
+}
 h2{
-font-size: 36px;
+font-size: 64px;
+text-decoration: underline;
+font-family:Pacifico;
 }
 
 h3{
   font-size: 36px;
-  te
+  font-family:Pacifico;
+  color: #ff0;
+
 }
 
 h4{
 font-size: 36px;
+font-family:Pacifico;
+color: #ff0;
+}
+
+h0{
+  font-size: 36px;
+  color: #ff0;
 }
